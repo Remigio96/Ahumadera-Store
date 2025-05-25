@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630.16 304.41">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .08em;
+      }
+
+      .cls-2 {
+        letter-spacing: .02em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        font-family: MinionConceptRoman-Bold, 'Minion Variable Concept';
+        font-size: 96.77px;
+        font-variation-settings: 'wght' 700, 'opsz' 11;
+        font-weight: 700;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: .02em;
+      }
+
+      .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-9 {
+        letter-spacing: .02em;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g>
+        <path class="cls-5" d="M372.87,87.49l-39.7,68.76c-.51.88.13,1.97,1.14,1.97h79.4c1.01,0,1.64-1.1,1.14-1.97l-39.7-68.76c-.51-.88-1.77-.88-2.28,0Z"/>
+        <path class="cls-5" d="M255.02,87.49l-39.7,68.76c-.51.88.13,1.97,1.14,1.97h79.4c1.01,0,1.64-1.1,1.14-1.97l-39.7-68.76c-.51-.88-1.77-.88-2.28,0Z"/>
+        <path class="cls-5" d="M315,0c-3.09,0-6.52,5.9-11.99,15.02-4.27,7.18-9.6,16.14-14.62,24.57-4.01,6.76-7.84,13.11-10.69,18.06-2.39,4.84-6.72,10.16-3.34,13.25,3.39,1.96,8.48,1.56,12.71,1.76,14.62.07,40.08.05,55.12.01,4.55-.23,10.14.33,13.75-1.87,3.12-3.16-1.05-8.29-3.69-13.53-3.2-5.51-7.54-12.72-11.99-20.23-4.87-8.18-9.89-16.63-13.87-23.3C321.33,5.33,318.11,0,315.15,0h-.15Z"/>
+        <path class="cls-5" d="M315.13,136.21c2.95,0,6.17-5.33,11.23-13.74,3.98-6.68,9-15.13,13.87-23.3,4.45-7.51,8.79-14.72,11.99-20.23,2.66-5.28,6.79-10.34,3.69-13.53-3.61-2.2-9.19-1.64-13.75-1.87-15.05-.04-40.5-.06-55.12.01-4.23.2-9.33-.2-12.71,1.76-3.41,3.07.98,8.45,3.34,13.25,2.86,4.95,6.69,11.3,10.69,18.06,5.02,8.43,10.35,17.4,14.62,24.57,5.48,9.12,8.9,15.02,11.99,15.02h.15Z"/>
+      </g>
+      <text class="cls-4" transform="translate(2.9 269.28)"><tspan class="cls-8" x="0" y="0">A</tspan><tspan x="62.22" y="0">H</tspan><tspan class="cls-6" x="139.44" y="0">U</tspan><tspan class="cls-2" x="209.12" y="0">M</tspan><tspan class="cls-9" x="298.63" y="0">A</tspan><tspan class="cls-7" x="360.85" y="0">D</tspan><tspan class="cls-3" x="435.37" y="0">E</tspan><tspan class="cls-1" x="494.2" y="0">R</tspan><tspan x="564.65" y="0">A</tspan></text>
+    </g>
+  </g>
+</svg>

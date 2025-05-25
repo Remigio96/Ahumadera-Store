@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- 1. Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahumadera | Store</title>
+    <!-- 2. Iconos y manifest -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/site.webmanifest">
+    <!-- 3. Frameworks externos CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- 4. CSS propio -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- 5. Preconexión de fuentes (mejor rendimiento) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- 6. Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="layout">
+        <nav class="main-nav">
+            <div class="headermobile">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-primary-custom">
+                    <div class="container-fluid">
+                        <div class="logo">
+                            <img src="./assets/img/positive_monochrome.svg" alt="Logo Ahumadera" class="img-fluid my-2"
+                                style="height: 36px;">
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link" href="#">Catálogo</a>
+                                <a class="nav-link" href="#">Ofertas</a>
+                                <a class="nav-link" href="#">Contacto</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="headerdesktop">
+                <div class="logo">
+                    <img src="./assets/img/positive_monochrome.svg" alt="Logo Ahumadera" class="img-fluid my-2"
+                        style="height: 36px;">
+                </div>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Catálogo</li>
+                    <li>Ofertas</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+        </nav>
+        <aside>
+            <label for="orderSelect" class="form-label">Ordenar por:</label>
+            <select id="orderSelect" class="form-select">
+                <option value="" selected disabled hidden>Seleccione una opción</option>
+                <option>Menor precio</option>
+                <option>Mayor precio</option>
+                <option>Últimos</option>
+                <option>Recomendados</option>
+            </select>
+        </aside>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <!-- Productos -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <div class="card d-flex flex-column">
+                            <img src="https://images.unsplash.com/photo-1601811617286-1a57da60328f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="Silla de Roble">
+                            <div class="card-body flex-grow-1">
+                                <h5 class="card-title">Silla Raíz Geométrica</h5>
+                                <p class="card-text">Hecha a partir de roble, con un diseño moderno y elegante.</p>
+                                <p class="card-text"><strong>$75.000</strong></p>
+                                <a href="#" class="btn btn-custom">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <div class="card d-flex flex-column">
+                            <img src="https://images.unsplash.com/photo-1651509245244-6674e242a3c1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="Mesa Rústica">
+                            <div class="card-body flex-grow-1">
+                                <h5 class="card-title">Moldes de madera tallada</h5>
+                                <p class="card-text">Pensados para dar forma y relieve a panes, galletas.</p>
+                                <p class="card-text"><strong>$15.000</strong></p>
+                                <a href="#" class="btn btn-custom">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <div class="card d-flex flex-column">
+                            <img src="https://plus.unsplash.com/premium_photo-1661698853144-d1186f51a0bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="Estantería Minimalista">
+                            <div class="card-body flex-grow-1">
+                                <h5 class="card-title">Set de Juguetes Montessori</h5>
+                                <p class="card-text">Incluye bloques de madera, rompecabezas y más.</p>
+                                <p class="card-text"><strong>$30.000</strong></p>
+                                <a href="#" class="btn btn-custom">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <div class="card d-flex flex-column">
+                            <img src="https://images.unsplash.com/photo-1605239435870-67df4c54a0b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="Estantería Minimalista">
+                            <div class="card-body flex-grow-1">
+                                <h5 class="card-title">Mesa redonda Lauken</h5>
+                                <p class="card-text">Mesa de madera de pino, ideal para el hogar.</p>
+                                <p class="card-text"><strong>$160.000</strong></p>
+                                <a href="#" class="btn btn-custom">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <div class="card d-flex flex-column">
+                            <img src="https://plus.unsplash.com/premium_photo-1661412706592-0d43f0b0b440?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="Estantería Minimalista">
+                            <div class="card-body flex-grow-1">
+                                <h5 class="card-title">Set Arcoíris Lúdico</h5>
+                                <p class="card-text">Conjunto de juguetes sensoriales y decorativos para primera
+                                    infancia.</p>
+                                <p class="card-text"><strong>$25.000</strong></p>
+                                <a href="#" class="btn btn-custom">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <div class="card d-flex flex-column">
+                            <img src="https://images.unsplash.com/photo-1651509244918-5486bb40162b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="Estantería Minimalista">
+                            <div class="card-body flex-grow-1">
+                                <h5 class="card-title">Mazo de madera</h5>
+                                <p class="card-text">El diseño ergonómico permite un agarre firme y un golpe controlado
+                                </p>
+                                <p class="card-text"><strong>$4.000</strong></p>
+                                <a href="#" class="btn btn-custom">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <div class="card d-flex flex-column">
+                            <img src="https://plus.unsplash.com/premium_photo-1664007654191-75992ed6627b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="Estantería Minimalista">
+                            <div class="card-body flex-grow-1">
+                                <h5 class="card-title">Set de Utensilios de Cocina</h5>
+                                <p class="card-text">Incluye cuchara, espátula y tenedor de madera.</p>
+                                <p class="card-text"><strong>$10.000</strong></p>
+                                <a href="#" class="btn btn-custom">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <div class="card d-flex flex-column">
+                            <img src="https://plus.unsplash.com/premium_photo-1680112806039-244731d88d45?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="Estantería Minimalista">
+                            <div class="card-body flex-grow-1">
+                                <h5 class="card-title">Sillón Papasan de ratán</h5>
+                                <p class="card-text">Diseño ergonómico y cómodo, ideal para relajarse.</p>
+                                <p class="card-text"><strong>$120.000</strong></p>
+                                <a href="#" class="btn btn-custom">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Paginación -->
+                    <div class="row">
+                        <div class="col-12">
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Anterior">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Siguiente">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="icons">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+            </div>
+            <div class="textfooter">
+                <p>Todos los derechos reservados</p>
+            </div>
+
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
