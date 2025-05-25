@@ -1,3 +1,6 @@
+
+![Recurso 10LG](https://github.com/user-attachments/assets/f7aa3000-4c20-47fb-963b-12becd9236dc)
+
 # 🌲 Ahumadera | Tienda de Muebles y Utensilios Artesanales
 
 Ahumadera es una tienda web desarrollada con HTML, CSS y Bootstrap 5 que presenta un catálogo de productos artesanales hechos en madera. El sitio es completamente responsive y adapta su diseño para móviles, tablets y escritorios, ofreciendo una experiencia fluida y moderna.
@@ -56,14 +59,17 @@ El diseño se adapta a distintos tamaños de pantalla:
 
 ### 💻 Escritorio
 
+![captura_1748196204](https://github.com/user-attachments/assets/296416c6-0764-4c88-95b0-42c0625670e4)
 
 
 ### 💻 Tablet
 
+![captura_1748196214](https://github.com/user-attachments/assets/2aca451b-4a2d-4355-81a3-fc8e5975cf7b)
 
 
 ### 📱 Móvil
 
+![captura_1748196218](https://github.com/user-attachments/assets/43952e14-0746-4349-aaca-d08cdc93f55e)
 
 
 ## 🚀 Cómo visualizar el proyecto
